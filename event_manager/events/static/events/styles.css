@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF8F2;
+  color: #1C1C1C;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #1C1C1C;
+}
+
+nav.navbar {
+  background-color: #FDEFE3;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #F8EDE8;
+}
+input.form-control[type="search"] {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #FDEFE3 !important; 
+  width: 330px !important;
+}
+.btn-outline-success {
+    --bs-btn-color: #FDEFE3;
+    --bs-btn-border-color: #e5cab3;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1C2A44;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+    color: rgb(97, 94, 94);
+}
+button {
+  background-color: #1C2A44;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #142033;
+}
+
+.card {
+  background-color: #FDEFE3;
+  width: 40vw !important;
+  margin: 16px auto !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  font-size: 14px;
+}
