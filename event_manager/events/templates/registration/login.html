@@ -12,8 +12,10 @@
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
+        <input type="hidden" name="next" value="{{next}}">
         <button type="submit" class="btn btn-primary">Login</button>
     </form>
+    <p>Don't have an account? <a href="{% url 'register' %}">Sign up here</a></p>
     <p><a href="{% url 'home' %}">Back to Home</a></p>
 </body>
 </html>
